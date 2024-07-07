@@ -1,0 +1,60 @@
+.main1 {
+  position: relative;
+  background: rgb(65, 1, 111);
+  width: 1200px;
+  min-height: 100vh;
+  padding: 0%;
+  margin: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 1000;
+  color: rgb(21, 168, 247);
+}
+.colorlane {
+  position: absolute;
+  bottom: 2%;
+  background-color: #414141;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+}
+li > button {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #0c0703;
+}
+button:hover {
+  background-color: #f17007;
+}
+
+#list {
+  padding: 20px;
+  background-color: rgb(108, 7, 241, 0.7);
+}
+#list > h1{
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+
+}
+ul {
+  display: flex;
+}
+li {
+  color: #ffff;
+  margin: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+}
